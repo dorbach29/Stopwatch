@@ -1,33 +1,82 @@
 body {
-    background: #202020;
-    color: white;
+    background: #fae0e4;
+    color: #ff477e;
 }
+h1 {
+    text-align: center;
+    font-size: 60;
+    margin: 4;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
 button {
     width: 100px;
     height: 30px;
     border: 3px soldi white;
     border-radius: 50px;
-    background: #202020;
+    background: #404040;
+    margin: 3px;
     color: white;
     cursor: pointer;
     outline: none;
 }
 
+#buttonList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#heading{
+    text-align: center;
+    position:sticky;
+    width: 100%;
+    background-color: #fae0e4;
+    top: 0;
+}
+
 #stopwatch {
-    font-size: 100px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -55%);
+    text-align: center;
+    font-size: 100;
+    margin:4;
 }
-#buttons {
-    position: absolute;
-    top: 55%;
-    left: 48.4%;
-    transform: translate(-51.6%, -45%);
+
+.lap{
+    width: 45%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c0a0b0;
+    border-radius: 5px;
+    height: 2.5rem;
+    font-size: 30;
+    margin-top: 10;
+
 }
-#buttons li {
-    display: inline;
-    padding-left: 10px;
+
+.lapTitle{
+    width: 100%;
+    text-overflow: clip;
+    overflow: scroll;
+    white-space: nowrap;
+
 }
+
+.lapTime {
+    margin-left: 5px;
+    margin-right: 1px;
+}
+
+
+
+
+
 
